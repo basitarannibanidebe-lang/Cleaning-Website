@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #1C392E;
+    --color-secondary: #F8D357;
+
+    --color-button: #C4E93A;
+    --color-eco-light: #EAF4E7;
+
+    --color-heading: #111827;
+    --color-body: #374151;
+
+    --color-message-error: #DC2626;
+    --color-message-success: #29B759;
+
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    --font-family: "Inter", sans-serif;
+
+    --font-weight-medium: 500;
+
+    --font-size-h1: 60px;
+    --line-height-h1: 72px;
+    --letter-spacing-h1: -1px;
+
+    --font-size-h2: 48px;
+    --line-height-h2: 60px;
+    --letter-spacing-h2: 0px;
+
+    --font-size-h3: 36px;
+    --line-height-h3: 45px;
+    --letter-spacing-h3: 0px;
+
+    --font-size-h4: 26px;
+    --line-height-h4: 30px;
+    --letter-spacing-h4: 0px;
+
+    --font-size-h5: 22px;
+    --line-height-h5: 28px;
+    --letter-spacing-h5: 0px;
+
+    --font-size-h6: 20px;
+    --line-height-h6: 26px;
+    --letter-spacing-h6: 0px;
+
+    --font-size-body-lg: 18px;
+    --line-height-body-lg: 26px;
+
+    --font-size-body-md: 16px;
+    --line-height-body-md: 24px;
+
+    --font-size-body-sm: 14px;
+    --line-height-body-sm: 21px;
+
+    --font-size-body-xs: 12px;
+    --line-height-body-xs: 18px;
+
+    --letter-spacing-body: 0px;
+
+    --font-weight-default: var(--font-weight-medium);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: var(--font-family);
+}
