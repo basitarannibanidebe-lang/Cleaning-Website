@@ -1,23 +1,30 @@
 #hero {
   background-color: var(--color-primary);
+}
+
+header {
+  background-color: var(--color-primary);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding: var(--section-space);
+  position: sticky;
+  top: 0;
 }
 
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    display: flex;
-    gap: 8px;
-    align-items: center;
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .logo-container {
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
 }
-
