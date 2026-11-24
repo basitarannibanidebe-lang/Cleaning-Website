@@ -1,0 +1,23 @@
+#hero {
+  background-color: var(--color-primary);
+  padding: var(--section-space);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.logo-container {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+

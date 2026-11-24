@@ -18,11 +18,12 @@
   --color-message-success: #29b759;
 
   --color-black: #000000;
-  --color-white: #ffffff;
+  --color-neutral-white: #ffffff;
 
   --font-family: "Poppins", sans-serif;
 
   --font-weight-medium: 500;
+  --font-weight-semibold: 600;
 
   --font-size-h1: 60px;
   --line-height-h1: 72px;
@@ -63,6 +64,8 @@
   --letter-spacing-body: 0px;
 
   --font-weight-default: var(--font-weight-medium);
+
+  --section-space: 32px;
 }
 
 img {
@@ -73,4 +76,11 @@ img {
 
 body {
   font-family: var(--font-family);
+}
+
+.body-18-semibold {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-body-md);
+  line-height: var(--line-height-body-lg);
+  color: var(--color-neutral-white);
 }
