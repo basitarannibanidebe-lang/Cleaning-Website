@@ -7,33 +7,30 @@
 :root {
   --color-primary: #1c392e;
   --color-secondary: #f8d357;
-
   --color-button: #c4e93a;
   --color-eco-light: #eaf4e7;
-
   --color-heading: #111827;
   --color-body: #374151;
-
   --color-message-error: #dc2626;
   --color-message-success: #29b759;
-
   --color-black: #000000;
   --color-neutral-white: #ffffff;
 
   --font-family: "Poppins", sans-serif;
 
+  --font-size-h1: 60px;
+  --font-size-h2: 48px;
+  --font-size-h3: 36px;
+
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
 
-  --font-size-h1: 60px;
   --line-height-h1: 72px;
   --letter-spacing-h1: -1px;
 
-  --font-size-h2: 48px;
   --line-height-h2: 60px;
   --letter-spacing-h2: 0px;
 
-  --font-size-h3: 36px;
   --line-height-h3: 45px;
   --letter-spacing-h3: 0px;
 
@@ -82,5 +79,12 @@ body {
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-body-md);
   line-height: var(--line-height-body-lg);
+  color: var(--color-neutral-white);
+}
+
+.body-18-medium {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
   color: var(--color-neutral-white);
 }
